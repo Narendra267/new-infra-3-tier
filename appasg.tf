@@ -37,7 +37,7 @@ resource "aws_launch_template" "swiggy-app-template" {
   )
 
   lifecycle {
-    prevent_destroy = true
+    
     ignore_changes  = all
   }
 }
