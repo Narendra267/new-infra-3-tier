@@ -1,6 +1,6 @@
 # Create an S3 Bucket
 resource "aws_s3_bucket" "example_bucket" {
-  bucket = "swiggy-bucket-dev2026"
+  bucket = "swiggy-bucket-dev20263435"
 
   # Enable versioning
   versioning {
